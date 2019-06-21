@@ -6,7 +6,7 @@
     font-size: 14px;
     .icon-plane {
         color: #fff;
-        text-shadow: 1px 1px 1px #509eb7;
+        text-shadow: 1px 1px 1px #FFE4E1;
         opacity: 0.7;
         font-size: 52px;
         line-height: 40px;
@@ -22,15 +22,15 @@
 .jump-container {
     &:hover {
         .icon-back {
-            background: rgba(36, 193, 246, 0.9);
+            background: #f08080;
         }
     }
 }
 .jump-container, .toc-container {
     position: relative;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     opacity: .8;
 }
 .jump-plan-container {
@@ -38,13 +38,13 @@
     top: -11px;
     left: -4px;
     width: 50px;
-    height: 61px;
+    height: 51px;
     overflow: hidden;
     .jump-plane {
         display: block;
         position: absolute;
         width: 42px;
-        height: 66px;
+        height: 56px;
         transform: translateY(68px);
         left: -2px;
     }
@@ -55,14 +55,14 @@
         color: #fff;
         background: #ccc;
         transform: rotate(90deg);
-        font-size: 32px;
+        font-size: 30px;
         line-height: 40px;
         width: 40px;
         text-align: center;
         display: block;
         &:hover {
-            background: #24c1f6;
-            color: #24c1f6;
+            background: #f08080;
+            color: #f08080;
         }
     }
 }
@@ -72,7 +72,7 @@
     margin-top: 10px;
     transition: 0.3s;
     &:hover {
-        background: rgba(36, 193, 246, 0.9);
+        background: #f08080;
     }
     .icon-font {
         font-size: 22px;
@@ -93,7 +93,7 @@
         min-width: 200px;
         width: initial;
         font-size: 14px;
-        text-shadow: 1px 1px 1px #398199;
+        text-shadow: 1px 1px 1px #f08080;
         bottom: -10px;
         transform-origin: 100% 100%;
         transform: translate3d(0, -10px, 0) rotate3d(1, 1, 1, -30deg);

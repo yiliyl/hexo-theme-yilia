@@ -9,7 +9,7 @@
         right: 10px;
         &:hover {
             a.share-outer {
-                background: #24c1f6;
+                background: #f08080;
             }
         }
     }
@@ -30,7 +30,7 @@
 
     .tooltip-content {
         position: absolute;
-        background: rgba(36,193,246,0.9);
+        background: #f08080; //rgba(36,193,246,0.9);
         z-index: 9999;
         width: 200px;
         bottom: 50%;
@@ -185,7 +185,7 @@
     }
 
     .tooltip-inner {
-        background: rgba(36,193,246,0.9);
+        background: #f08080; //rgba(36,193,246,0.9);
         padding: 40px;
         -webkit-transform: translate3d(0,100%,0);
         transform: translate3d(0,100%,0);
