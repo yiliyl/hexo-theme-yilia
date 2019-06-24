@@ -118,6 +118,10 @@
 .article-entry .gist .gist-file .gist-meta a:hover {
   text-decoration: underline;
 }
+.article-entry em {
+  font-style: italic;
+  color: rgb(177, 45, 45);
+}
 pre .comment {
   color: #75715e;
 }
